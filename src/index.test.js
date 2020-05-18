@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.';
+import Mifiel from '.';
 
 describe('ExampleComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy();
+    expect(Mifiel).toBeTruthy();
   });
 });
