@@ -15,12 +15,11 @@ npm install --save mifiel-react
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'mifiel-react'
-import 'mifiel-react/dist/index.css'
+import Mifiel from 'mifiel-react'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Mifiel widgetId="4ba53179-c075-4faa-87cf-c40a68cf51dc" successButtonText="Ok" />
   }
 }
 ```
